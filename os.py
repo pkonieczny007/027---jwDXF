@@ -11,7 +11,7 @@ for filename in os.listdir():
             szer=fdxf.sze(filename)
             print(n, filename, wys, szer)
     except:
-        pass
+        print(n, filename, 'ERROR')
         
 
 
